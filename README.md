@@ -1,92 +1,70 @@
-# 🧠 Verant Test Mock – React Project
+# Getting Started with Create React App
 
-![React Badge](https://img.shields.io/badge/React-18.0+-blue?logo=react)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Deployed](https://img.shields.io/badge/Deployed%20on-Netlify-brightgreen?logo=netlify)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> 🎤 A fully interactive **Verant-style speaking test mock** built using **React + Web Speech API** that simulates a real verbal reasoning test environment.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 🚀 Live Demo  
-🔗 https://versant-test.netlify.app/
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🧩 Overview
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-This project replicates the **Verant (spoken English) test experience**, including **voice playback, section timers, and randomized scoring** — all running 100% in the browser.
+### `npm test`
 
-Each attempt loads a **fresh set of questions** for realistic practice.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 🎯 Features
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-✅ **6 Sections Included**
-- Reading  
-- Repeats  
-- Short Answer  
-- Sentence Builds  
-- Story Retelling  
-- Open Questions  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-✅ **Core Features**
-- 🔊 **Speech Synthesis (TTS)** — questions read aloud automatically  
-- ⏱️ **Smart Timers** — 15s for short and 45s for long questions  
-- 🔁 **Replay Question** option  
-- 🧠 **Dynamic Question Sets** on every retry  
-- 📈 **Score out of 100** (randomized for demo purposes)  
-- 💻 **Single Page React App** — no backend required  
-- 🌈 **Clean, responsive UI** that feels like a real test  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## 🛠️ Tech Stack
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-| Tool / Library | Purpose |
-|-----------------|----------|
-| **React** | UI and state management |
-| **Web Speech API (SpeechSynthesis)** | Voice playback |
-| **CSS3** | Modern, responsive design |
-| **Netlify** | Hosting and deployment |
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## 🧪 How It Works
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. **Reading Section**  
-   Displays text on screen with a voice reading it aloud.
+## Learn More
 
-2. **Repeat & Other Sections**  
-   Text is *not visible* — question plays automatically via voice.  
-   A **Replay Question** button is available.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-3. **Timers**  
-   Each question has a time limit:
-   - ⏱️ Short sections: **15 seconds**
-   - ⏱️ Long sections: **45 seconds**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-4. **Scoring**  
-   A **random score (0–100)** is shown with a descriptive result at the end.
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
----
+### Making a Progressive Web App
 
-## ⚙️ Installation & Setup
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-To run locally:
+### Advanced Configuration
 
-```bash
-# 1️⃣ Clone this repo
-git clone 
-cd verant-test-mock
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-# 2️⃣ Install dependencies
-npm install
+### Deployment
 
-# 3️⃣ Start the app
-npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
